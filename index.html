@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Izaiah's Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+<!-- Style -->
+<head>
+	<style>
+		a:link {
+			color: green;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: orange;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: red;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+
+		a:active {
+			color: yellow;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Welcome</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Me</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Projects</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#AboutMe" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About me</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Projects</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://i.pinimg.com/originals/b0/b9/6c/b0b96c8289ceb8aaac94aa5c9e0e8ebf.gif" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Welcome</h3>
+      <p><b>Aint much to see except...actually nevermind</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://thumbs.gfycat.com/SinfulInfamousFishingcat-size_restricted.gif" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Welcome</h3>
+      <p><b>Aint much to see except...actually nevermind</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://thumbs.gfycat.com/GlitteringCostlyHapuku-size_restricted.gif" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Welcome</h3>
+      <p><b>Aint much to see except...actually nevermind</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">About Me</h2>
+    <p class="w3-opacity"><i>I’m just a simple man, trying to make my way in the universe. - Jango Fett</i></p>
+    <p class="w3-justify">I am a simple man, I like games, food, the Geneva Convention, just to name a few.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Current Favorite Game - For Honor</p>
+        <img src="https://ubistatic2-a.akamaihd.net/ncsa/forhonor/website/og/ForHonor_og_1200x630.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Current Favorite Youtuber - Jaayy</p>
+        <img src="https://yt3.ggpht.com/a/AGF-l79OoQa3UHSQaDg1-vSemiAQTZPTnIDeiwDX=s288-c-k-c0xffffffff-no-rj-mo" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Favorite Food Type - Italian</p>
+        <img src="https://hips.hearstapps.com/del.h-cdn.co/assets/17/39/2048x1024/landscape-1506456062-delish-spaghetti-meatballs.jpg?resize=1200:*" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Projects Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">My Projects</h2>
+      <p class="w3-opacity w3-center"><i>Games and Assignments</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li><a href="https://drive.google.com/file/d/18kBBDwY0XRy4vernSCH44fXtfZ2GmfTG/view">[Wheel of Kairos Written Response] <a href="https://spinwheelProj.izaiahadams.repl.run">[PLAY WHEEL OF KAIROS]</span></li></a></a>
+        <li><a href="https://scratch.mit.edu/projects/330989246/">[SPONGEBOB APOCALYPSE]</li>
+        <li><a href="https://docs.google.com/drawings/d/1WNbypYqcsvwnQRrBe9xA3_xkrjDrTFheiQIz5S3CUEc/edit?usp=sharing">[Facial Recognition Artifact - Project]</li></a>
+      </ul>
+          <img src="https://thumbs.gfycat.com/WarlikeDigitalAlabamamapturtle-size_restricted.gif" alt="Paris" style="width:100%" class="w3-hover-opacity">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
